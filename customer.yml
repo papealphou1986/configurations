@@ -3,9 +3,9 @@ spring:
     mongodb:
       username: alphou
       password: alphou
-      address: 192.168.154.250
+      host: localhost
       port: 27017
       database: customer
       authentication-database: admin
 server:
-  port: 8032
+  port: 8080

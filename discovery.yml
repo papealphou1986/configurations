@@ -2,9 +2,9 @@ server:
   port: 8762
 eureka:
   instance:
-    address: 192.168.154.250
+    hostname: localhost
   client:
     register-with-eureka: false
     fetch-registry: false
     service-url:
-      defaultZone: http://${eureka.instance.address}:8761/eureka/
+      defaultZone: http://${eureka.instance.hostname}:8761/eureka/
