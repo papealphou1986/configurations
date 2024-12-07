@@ -2,7 +2,7 @@ server:
   port: 8761
 eureka:
   instance:
-    hostname: localhost
+    hostname: 192.168.154.250 # Set to the actual IP of your server
   client:
     register-with-eureka: false
     fetch-registry: false
